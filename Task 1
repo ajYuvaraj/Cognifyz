@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Webpage</title>
+    <style>
+        /* Basic styling */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: white;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        h1 {
+            color: #333;
+            text-align: center;
+        }
+
+        p {
+            color: #555;
+            text-align: center;
+        }
+
+        img {
+            display: block;
+            max-width: 100%;
+            height: auto;
+            margin: 20px auto;
+        }
+
+        form {
+            text-align: center;
+            margin: 20px 0;
+        }
+
+        input[type="text"] {
+            padding: 10px;
+            width: 80%;
+            margin-bottom: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+
+        input[type="submit"] {
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            cursor: pointer;
+            border-radius: 5px;
+        }
+
+        input[type="submit"]:hover {
+            background-color: #45a049;
+        }
+
+        nav {
+            text-align: center;
+            margin: 20px 0;
+        }
+
+        nav ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        nav ul li {
+            display: inline;
+            margin: 0 10px;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: #4CAF50;
+        }
+
+        nav ul li a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Yamaha RX 100</h1>
+        <p>The RX 100 was quickly adopted by racers who recognized its potential for drag racing. Various modifications such as expansion chambers,sprocket changes and wheel size changes became fairly common.</p>
+        <img src="bike.jpeg" alt="Placeholder Image">
+        
+        <form>
+            <input type="text" placeholder="Enter your text here">
+            <input type="submit" value="Submit">
+        </form>
+        
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="https://www.yamaha-motor-india.com/">Contact</a></li>
+            </ul>
+        </nav>
+    </div>
+</body>
+</html>
