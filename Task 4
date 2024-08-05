@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web Developer Internship at Cognifyz Technologies</title>
+    <style>
+        /* Basic styling */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: white;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        h1 {
+            color: #333;
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        .section {
+            margin: 20px 0;
+        }
+
+        .section h2 {
+            color: #4CAF50;
+            margin-bottom: 10px;
+        }
+
+        .section p, .section ul {
+            color: #555;
+        }
+
+        .section ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        .section li {
+            background: #e0e0e0;
+            margin: 5px 0;
+            padding: 10px;
+            border-radius: 5px;
+        }
+
+        .cta {
+            text-align: center;
+            margin: 20px 0;
+        }
+
+        .cta button {
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            font-size: 16px;
+            cursor: pointer;
+            border-radius: 5px;
+        }
+
+        .cta button:hover {
+            background-color: #45a049;
+        }
+
+        .footer {
+            margin-top: 20px;
+            padding: 10px;
+            text-align: center;
+            background-color: #333;
+            color: white;
+        }
+
+        .footer a {
+            color: #4CAF50;
+            text-decoration: none;
+        }
+
+        .footer a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Web Developer Internship Opportunities at Cognifyz Technologies</h1>
+        
+        <div class="section intro">
+            <h2>Introduction</h2>
+            <p>Join our internship program to gain invaluable real-world experience. This is a 3-month program designed to provide hands-on experience and mentorship from industry professionals.</p>
+        </div>
+        
+        <div class="section highlights">
+            <h2>Highlights</h2>
+            <ul>
+                <li>Real-world experience on live projects</li>
+                <li>Mentorship from experienced developers</li>
+                <li>Networking opportunities</li>
+                <li>Potential for a full-time position</li>
+            </ul>
+        </div>
+        
+        <div class="section qualifications">
+            <h2>Qualifications</h2>
+            <ul>
+                <li>Basic understanding of HTML, CSS, and JavaScript</li>
+                <li>Knowledge of front-end frameworks (e.g., React, Angular) is a plus</li>
+                <li>Strong problem-solving skills</li>
+                <li>Ability to work in a team</li>
+            </ul>
+        </div>
+        
+        <div class="cta">
+            <button onclick="location.href='https://www.cognifyz.com/apply'">Apply Now</button>
+        </div>
+    </div>
+    
+    <div class="footer">
+        <p>For inquiries, contact us at <a href="mailto:info@cognifyz.com">info@cognifyz.com</a> or call (123) 456-7890.</p>
+    </div>
+</body>
+</html>
